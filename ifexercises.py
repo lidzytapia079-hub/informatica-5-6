@@ -1,10 +1,11 @@
 def main():
     interger = int(input("put an int number:"))
     if interger<0:
-        print("the number multiplied by -1.")
+        interger *= -1
+        print(interger)
 
     else:
-        print(" prints out the number as is")
+        print(interger)
 
 if __name__=="__main__":
     main()
