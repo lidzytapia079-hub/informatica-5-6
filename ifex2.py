@@ -1,7 +1,7 @@
 def main():
     nA=float(input("type first number" :"))
     nB=float(input("type first number" :"))
-    print(f"result:{result}")
+    print(f"result:{result})
 
 
 
