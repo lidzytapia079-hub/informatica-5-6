@@ -1,6 +1,7 @@
 def main():
     tasks=[]
     new_task=""
+    ask=""
     while True:
         print(f"You have{len(tasks)}tasks to do .")
         print(tasks)
@@ -10,6 +11,10 @@ def main():
             tasks.append(new_task)
         elif command =="end":
             break
+        elif answer == complete:
+            ask = input()
+
+
 
 
 if __name__ == "__main__":
