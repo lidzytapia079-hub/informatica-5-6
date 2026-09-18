@@ -11,8 +11,8 @@ def main():
             tasks.append(new_task)
         elif command =="end":
             break
-        elif answer == complete:
-            ask = input()
+        elif answer == "complete":
+            ask = input("Have you finished all of them )
 
 
 
