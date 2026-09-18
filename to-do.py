@@ -11,11 +11,20 @@ def main():
             tasks.append(new_task)
         elif command =="end":
             break
-        elif answer == "complete":
-            ask = input("Have you finished all of them )
-
-
-
+        elif command == "complete":
+            ask = input("Have you finished all of them?").strip().lower()
+            if ask  == "yes":
+                tasks.clear()
+                print("you finished all of them")
+                break
+            else:
+                tasks.remove(input("what  did you finish?"))
+                print(tasks)
+                if tasks==[]:
+                    print("you finished")
+                    break
+                elif answer=="exit ":
+                    break
 
 if __name__ == "__main__":
     main()
