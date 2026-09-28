@@ -1,0 +1,7 @@
+a-Write a description for a while loop
+is the loop  than never stops to ask to the user the topic of the program, ask for a determinated condition.
+b-Write a description for a for loop
+loop is something than help you to serch a value in determinated list or range .
+c-Compare a while loop to a for loop.
+while loop never stops to ask to the user and ask for a determinated condition, loop serch into a range or list a determinated value, and can stops to ask
+
