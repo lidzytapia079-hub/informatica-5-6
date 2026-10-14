@@ -18,4 +18,16 @@
 #then if th user dont put a letter use the function else to put invalid answer
 #if the user win put a print than will said "congragulation you won"
 #if the userr fail with try and exept , put , try again
+import random
+def main():
+
+    start_game("words.txt")
+
+def start_game(a):
+    with open(a) as  words :
+        words = words.read().splitlines()
+        word = random.choice(words)
+        print(word)
+if __name__=="__main__":
+    main()
 
